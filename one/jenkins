@@ -1,0 +1,8 @@
+pipeline{
+  agent {label,'one'}
+  stages{
+    stage ('git'){
+      steps{
+      git url
+      }
+    }
